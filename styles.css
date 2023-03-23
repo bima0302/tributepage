@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --white-color: #F2F2F2;
+    --gray-color: #D9D9D9;
+    --dark-gray-color: #333333;
+}
+
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+         Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+       */
+    font-size: 10px;
+    }
+  
+body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--dark-gray-color);
+    margin: 0;
+    }
+  
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    }
+  
+    @media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+  }
+  
+h2 {
+    font-size: 1.6rem;
+    }
+  
+a {
+    color: var(--white-color);
+    }
+  
+a:visited {
+    color: var(--gray-color);
+    }
+  
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 15px;
+    background: #eee;
+    }
+  
+    @media (max-width: 460px) {
+        #main {
+            margin: 0;
+    }
+  }
+  
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+    }
+  
+#img-div {
+    color: var(--white-color);
+    background: var(--dark-gray-color);
+    padding: 10px;
+    margin: 0;
+    border-radius: 15px;
+    }
+  
+#img-caption {
+    margin: 15px 0 5px 0;
+    }
+  
+    @media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+        }
+    }
+  
+#headline {
+    margin: 50px 0;
+    text-align: center;
+    }
+  
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    }
+  
+li {
+    margin: 16px 0;
+    }
+  
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    }
+
+#foot {
+    color: var(--white-color);
+    background: var(--dark-gray-color);
+    padding: 10px;
+    margin: 0;
+    border-radius: 15px;
+    }
