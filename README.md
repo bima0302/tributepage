@@ -1,2 +1,1 @@
-# tributepage
-TributePage: Presiden Soekarno
+# TributePage: Presiden Soekarno
